@@ -10,44 +10,44 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/interior.jpg')`}}>
                         <header className="major">
-                            <h3>Aliquam</h3>
+                            <h3>Interiors</h3>
                             <p>Ipsum dolor sit amet</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/kitchen.jpg')`}}>
                         <header className="major">
-                            <h3>Tempus</h3>
+                            <h3>Kitchens</h3>
                             <p>feugiat amet tempus</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/bathroom.jpg')`}}>
                         <header className="major">
-                            <h3>Magna</h3>
+                            <h3>Bathrooms</h3>
                             <p>Lorem etiam nullam</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/exterior.jpg')`}}>
                         <header className="major">
-                            <h3>Ipsum</h3>
+                            <h3>Exteriors</h3>
                             <p>Nisl sed aliquam</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/customhome.jpg')`}}>
                         <header className="major">
-                            <h3>Consequat</h3>
+                            <h3>Custom Homes</h3>
                             <p>Ipsum dolor sit amet</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/unique.jpg')`}}>
                         <header className="major">
-                            <h3>Etiam</h3>
+                            <h3>Unique Projects</h3>
                             <p>Feugiat amet tempus</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
