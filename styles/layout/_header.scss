@@ -27,6 +27,7 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		margin-left: 10px;
 
 		.logo {
 			border: 0;
@@ -70,31 +71,7 @@
 			line-height: inherit;
 			padding: 0 0.5em;
 			margin-left: 5px;
-
-			strong {
-				@include vendor('transition', (
-					'background-color #{_duration(transition)} ease-in-out',
-					'color #{_duration(transition)} ease-in-out'
-				));
-				background-color: _palette(fg-bold);
-				color: _palette(bg);
-				display: inline-block;
-				line-height: 1.65em;
-				margin-right: 0.325em;
-				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
-			}
-
-			&:hover {
-				strong {
-					background-color: _palette(highlight);
-				}
-			}
-
-			&:active {
-				strong {
-					background-color: desaturate(darken(_palette(highlight), 15), 5);
-				}
-			}
+			border-radius: 15px;
 		}
 
 		nav {

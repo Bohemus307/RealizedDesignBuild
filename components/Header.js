@@ -4,17 +4,16 @@ import Image from 'next/image'
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <div className="pineImage">
         <Image
-        src="/static/images/RealizedPinecone.png"
+        className="pineImage"
+        src="/static/images/RealizedPinecone2.png"
         alt="Realized Design Logo"
-        width={55}
+        width={60}
         height={50}
-        quality={75}
+        quality={100}
         priority="true"
         layout="intrinsic"
         />
-        </div>
         <Link href="/">
             <a className="logo"><strong>Realized</strong> <span>Design & Build</span></a>
         </Link>
