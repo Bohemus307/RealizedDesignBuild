@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import BannerLanding from '../components/BannerLanding'
 
-export default () => (
+const Landing = () => (
     <Layout>
         <Head>
             <title>Landing Page</title>
@@ -42,7 +42,7 @@ export default () => (
                     </section>
                     <section>
                         <Link href="/generic">
-                            <a className="image"><img src="/static/images/renovation.jpg" alt="" /></a>
+                            <a className="image"><img src="/static/images/renovation.jpg" alt="renovation" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -58,7 +58,7 @@ export default () => (
                     </section>
                     <section>
                         <Link href="/generic">
-                            <a className="image"><img src="/static/images/interior2.jpg" alt="" /></a>
+                            <a className="image"><img src="/static/images/interior2.jpg" alt="interior" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -78,3 +78,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default Landing;
